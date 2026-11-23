@@ -1,0 +1,29 @@
+Definition of Done – Sprint 3
+Feature Exploration & Vidareutveckling:
+- Nya möjliga features har brainstormats och diskuterats
+- Relevanta features har valts ut och motiverats
+- Möjligheten att utveckla utvalda features har undersökts
+- Minst en feature har vidareutvecklats 
+
+Maskininlärning & Data:
+- Möjliga användningsområden för ML i produkten har undersökts
+- En ML-metod har valts och motiverats
+- En enkel ML-modell har testats eller implementerats
+- Kopplingen mellan ML och en funktion i produkten är tydlig
+
+Produkt & Implementation:
+- Den befintliga produkten har vidareutvecklats
+- Funktioner är integrerade och fungerar tillsammans
+- Data och API:er används aktivt i produkten
+- Förbättringar av UX har genomförts 
+
+Testning & Iteration:
+- Minst en ny testrunda med användare har genomförts
+- Feedback från användare har samlats in och dokumenterats
+- Produkten har uppdaterats baserat på feedback
+- Kopplingen mellan problem, lösning och användarbehov är tydlig
+
+Dokumentation & Samarbete:
+- Allt arbete är dokumenterat i GitHub
+- Scrum board är uppdaterad och speglar Sprint 3-arbetet
+- Alla gruppmedlemmar har bidragit

@@ -1,0 +1,31 @@
+Definition of Done – Sprint 4
+
+Produkt & Färdigställande:
+-Samtliga prioriterade features är implementerade och fungerar
+-Produktens huvudflöde fungerar från start till slut utan problem
+-Frontend och backend är integrerade och fungerar tillsammans
+-Buggar och tekniska problem har identifierats och åtgärdats
+-Produkten är i ett nästan färdigt skick inför slutleverans
+
+Maskininlärning, K-means & Clustering:
+-K-means clustering är implementerat och testat i produkten
+-Clustering används för att gruppera låtar eller artister baserat på relevanta attribut i datan
+-Kopplingen mellan clustering, användarens input och rekommendationerna är tydlig
+
+Data, API:er & Funktionalitet:
+-Dataset och API:er fungerar i  produkten
+-Produktens funktionalitet har testats och förbättrats
+
+UX, Testning & Iteration:
+-Förbättringar av UI/UX har genomförts utifrån tidigare feedback
+-Minst en ytterligare testning eller genomgång av produkten har genomförts
+-Feedback och identifierade förbättringsområden har dokumenterats
+-Produkten har itererats och förbättrats utifrån testresultat
+-Kopplingen mellan problem, lösning och användarbehov är tydlig
+
+Dokumentation & Samarbete:
+-Allt arbete är dokumenterat och uppdaterat i GitHub
+-Scrum board är uppdaterad och speglar Sprint 4-arbetet
+-Tasks är tydligt definierade och uppdaterat löpande
+-Val av funktioner, tekniska lösningar och utvecklingssteg är dokumenterade och motiverade utifrån projektets small web-perspektiv
+-Alla gruppmedlemmar har bidragit till sprinten 

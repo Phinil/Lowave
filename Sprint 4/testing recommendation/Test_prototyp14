@@ -1,0 +1,81 @@
+Testing seed songs, and prototyp 14:
+
+Goal with test:
+
+Testing där jag ser om rätt låtar blir seed låtar och om den tar låtar runt den, när man väljer dess värde + genre. 
+
+——————
+
+test 1: So sick - Neyo - dance
+
+danceability: 0.679
+energy: 0.682
+valence: 0.590
+acousticness: 0.265
+instrumentalness: 0.0
+tempo: 94.
+
+förväntat resultat: Blir seed, men försvinner i popular filtret, borde ej finnas i frontend. Det ska bli kluster 4.
+
+resultat: korrekt.
+
+——————
+
+test 2: So Much Love - Owen Westlake - deep house
+
+danceability: 0.803
+energy: 0.807
+valence: 0.909
+acousticness: 0.0335
+instrumentalness: 0.0
+tempo: 123.012
+
+förväntat resultat: Blir seed, borde visas i frontend. Låtar nära det värdet visas. Det ska bli cluster 4.
+resultat: korrekt
+
+——————
+
+
+test 3: Honey and the sunlight - Boss Axis- minimal techno
+
+danceability: 0.80
+energy: 0.81
+valence: 0.64
+acousticness: 0
+instrumentalness: 0.84
+tempo: 124
+
+förväntat resultat: Blir seed, borde visas i frontend. Låtar nära det värdet visas. Det ska bli cluster 4.
+resultat: korrekt
+
+——————
+test 4: Evolve- the warning - metal
+
+danceability: 0.45
+energy: 0.93
+valence: 0.46
+acousticness: 0
+instrumentalness: 0.
+tempo: 175
+
+förväntat resultat: Blir seed, borde visas i frontend. Låtar nära det värdet visas. Det ska bli cluster 3.
+resultat:
+
+fel hypotes → Visas ej i frontend
+rätt → låtar nära värdet, blir seed, rätt cluster
+
+Varför? → Seed låten visar inte alltid. Vi behåller funktionen koden som den är. I denna sökning fanns 42 kandidater som de slumpades mellan, därav kom inte seed låten upp. 
+——————
+
+test 5: Cold Mouth Prayer- Marduk- black metal
+
+danceability: 0.21
+energy: 0.99
+valence: 0.04
+acousticness: 0
+instrumentalness: 0.61
+tempo: 111
+
+förväntat resultat: Blir seed, borde visas i frontend. Låtar nära det värdet visas. Det ska bli cluster 0.
+resultat: Blir seed låt, visas inte i frontend med samma anledning från test 4
+

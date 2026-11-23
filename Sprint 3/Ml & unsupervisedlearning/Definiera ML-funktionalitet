@@ -1,0 +1,4 @@
+Definera vad ML ska göra i produkten:
+ML ska generera rekommendationer av mindre artister baserat på den känsla användaren vill uppleva.
+Genom att analysera användarens valda känsla och musikens egenskaper ska systemet föreslå artister som passar användarens humör. 
+Målet är att hjälpa användaren upptäcka ny musik och samtidigt ge mindre artister ökad synlighet. 

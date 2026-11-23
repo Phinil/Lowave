@@ -1,0 +1,118 @@
+Från prototyp 1:
+
+Sammanfattning om funktioner: 
+Enklaste versionen, för att se vad problem owner tycker om genre + mood + prompt = musik
+byggs på if satser och enbart dataset
+
+viktiga punkter:
+Testa assumptions och en funktion i taget.
+Efter test, uppskattar iden, men saknade mycke funktion se intervjuer. 
+Skedde i sprint 2
+
+
+prototyp 2:
+
+sammanfattning:
+Enbart figma (ej kod)
+Lägger till funktioner såsom flöde, delar upp upptäcks funktionen till en med genrer och en via mood/prompts.
+viktiga punkter:
+Mycket problem som diskuteras innan vi gjorde prototyp 2 vilket tog mycket tid, bland problem kring verifiering, samt möjligheten för realtiddata och hur vi ska lösa passande API:er.
+skedde i sprint 3
+
+
+prototyp 3:
+
+sammanfattning: 
+Implementerade funktionerna från figma 
+fick tillgång till öppen API från deezer som gjorde att vi kunde spela om musik och cover arts.
+Samt tillgång till API:er för att säkerställa filtret för “mindre artister”
+viktiga punkter:
+Nyttjade ej någon ML algoritmen än, men jobbade med algoritm workshop vid sidan.
+Utgick mycket från testintervjuer. 
+skedde i sprint 3
+
+prototyp 4:
+
+sammanfattning:
+Testar k-means i denna prototyp annars desamma. 
+rekommendationerna fungerar relativt bra 
+viktiga punkter:
+Pågick mellan sprint 3-4
+Började förstå att värden som promoting funktionen inte kunde förklaras. Vi slackade på transparens, vilket vi ansåg som viktigt inom smallwebb. 
+
+
+
+prototyp 5:
+
+sammanfattning: 
+Skapade databaser för att spara viktig information
+-stor kvalitets och logik förbättring av rekommendations motorn
+striktare definition av small artist.
+Prompt och mood tolkning finns kvar, är bättre pga NLP konfiguration, men ej tillräckligt transparent.
+viktigare punkter: 
+hittade inget sätt att förklara eller riktigt förstå NLP konfig.
+Sprint 4
+
+prototyp 6-8:
+
+sammanfattning:
+byter från genre/prompt till property baserad sökning(alltså baserad på egenskaper såsom k-means)
+Slår ihop rekommendering via genre och egenskaper
+
+viktiga punkter:
+Här trodde vi att vi säkrat transparensen. 
+Dessa prototyper liknade varandra. 
+Här märkte vi att vi behöver prioritera nya funktioner samt titta mer på intervjuer.
+Sprint 4
+
+
+Protop 9-12:
+
+sammanfattning:
+Förbättrar community delen; kommentarer, bättre flöde där previews dyker upp
+Samt inför iden om låt kort, där artister ska kunna söka upp sin låt och få reda på data från användarna.
+viktiga punkter: 
+
+Efter att gå tillbaka ,iterera för att förhålla oss till design thinking, hittade vi viktiga punkter från intervjuer och vad problem owner efterfrågar. Vilket var community delen samt flödet.
+Dock mycket buggar, där vissa funktioner inte är sammankopplade inom community delen.
+Får upp iden om community rooms, där vi testar att göra lite ändringar i frontend, dock inte fullständig.
+Sprint 4
+
+Prototyp 13:
+
+Sammanfattning:
+Ux förbättringar, både i discovery och community
+Möjligheten att skapa community room
+Möjligheten att skapa konton, spara inlägg och låtar till sitt konto.
+
+Viktiga punkter:
+Efter mycket vibecoding funkar de fundamentala, där vi fixat många buggar.
+Dock är koden på många ställen svår även för att förklara, vilket vi satsar på att förbättra.
+Sprint 4
+
+prototyp 14:
+ sammanfattning:
+Förbättrar logiken i rekommendation systemet
+Nya logiken: 
+Sliders beskriver vad användaren vill ha.
+K-means väljer rätt musikaliskt område.
+Seed-låten blir den bästa matchningen i området.
+Resultaten blir låtar som liknar seed-låten,
+
+
+viktiga punkter:
+Då k-means hittils mest använts som filter, ändrade vi logiken vilken gjorde K-means till en mer bidragande faktor till vilka låtar som rekommenderas.
+Försökt göra koden mer transparent och förståelig.
+Sprint 4
+
+Seed låten behöver inte alltid visas då de finns lite extra faktorer:
+
+artist inte får upprepas
+nyligen visade låtar/artister får minuspoäng
+media/artistprofil måste gå att bygga
+slutscoring med popularity/small artist score
+lite randomisering i leveransen
+
+
+
+

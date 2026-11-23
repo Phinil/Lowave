@@ -1,0 +1,2096 @@
+Test Prototyp 4:
+Test av funktion: rekommendationer
+
+Här testade vi i vår prototyp när vi från början hade möjligheten att skriva en fri text för att få fram olika rekommendationer. 
+
+Test 1:
+I test 1 skrev jag endast “ledsen”. Då blev all musik instrumental. Vilket kanske inte riktigt är endast det man vill ha om man vill ha “ledsen” musik. 
+
+{
+  "view": "kmeans",
+  "query_label": "ledsen",
+  "cluster": 2,
+  "cluster_name": "chill_acoustic_melancholy",
+  "results": [
+    {
+      "artist_key": "theishter",
+      "artist": "Theishter",
+      "song": "Again from Your Lie in April",
+      "genre": "anime",
+      "cluster": 2,
+      "cluster_name": "chill_acoustic_melancholy",
+      "reason": "KMeans cluster 2 (chill_acoustic_melancholy) • distance 1.04",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "back to earth",
+      "artist": "Back to Earth",
+      "song": "The Love of My Life",
+      "genre": "new-age",
+      "cluster": 2,
+      "cluster_name": "chill_acoustic_melancholy",
+      "reason": "KMeans cluster 2 (chill_acoustic_melancholy) • distance 0.89",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "lucas cervetti",
+      "artist": "Lucas Cervetti",
+      "song": "Frecuencia Álmica, Pt. 2",
+      "genre": "world-music",
+      "cluster": 2,
+      "cluster_name": "chill_acoustic_melancholy",
+      "reason": "KMeans cluster 2 (chill_acoustic_melancholy) • distance 0.95",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "tommy emmanuel",
+      "artist": "Tommy Emmanuel",
+      "song": "Somewhere Over the Rainbow",
+      "genre": "bluegrass",
+      "cluster": 2,
+      "cluster_name": "chill_acoustic_melancholy",
+      "reason": "KMeans cluster 2 (chill_acoustic_melancholy) • distance 0.73",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "sydney woods",
+      "artist": "Sydney Woods",
+      "song": "Deep Soul",
+      "genre": "sleep",
+      "cluster": 2,
+      "cluster_name": "chill_acoustic_melancholy",
+      "reason": "KMeans cluster 2 (chill_acoustic_melancholy) • distance 1.18",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "dagda",
+      "artist": "Dagda",
+      "song": "The Primal Gods",
+      "genre": "new-age",
+      "cluster": 2,
+      "cluster_name": "chill_acoustic_melancholy",
+      "reason": "KMeans cluster 2 (chill_acoustic_melancholy) • distance 0.72",
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}
+Response headers
+
+Test 2:
+I detta test skrev jag “chill”. 
+
+{
+  "view": "kmeans",
+  "query_label": "chill",
+  "cluster": 3,
+  "cluster_name": "ambient_instrumental_chill",
+  "results": [
+    {
+      "artist_key": "sonia rivas",
+      "artist": "Sonia Rivas",
+      "song": "Aquella Flor y Tu Voz",
+      "genre": "rock-n-roll",
+      "cluster": 3,
+      "cluster_name": "ambient_instrumental_chill",
+      "reason": "KMeans cluster 3 (ambient_instrumental_chill) • distance 1.52",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "ritviz",
+      "artist": "Ritviz",
+      "song": "Jeet 2.0",
+      "genre": "edm",
+      "cluster": 3,
+      "cluster_name": "ambient_instrumental_chill",
+      "reason": "KMeans cluster 3 (ambient_instrumental_chill) • distance 1.49",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "kayee tam",
+      "artist": "Kayee Tam",
+      "song": "喜愛便一起 - 劇集 \"一笑渡凡間\" 主題曲",
+      "genre": "cantopop",
+      "cluster": 3,
+      "cluster_name": "ambient_instrumental_chill",
+      "reason": "KMeans cluster 3 (ambient_instrumental_chill) • distance 1.51",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "guarana",
+      "artist": "Guaraná",
+      "song": "En la Casa de Inés",
+      "genre": "spanish",
+      "cluster": 3,
+      "cluster_name": "ambient_instrumental_chill",
+      "reason": "KMeans cluster 3 (ambient_instrumental_chill) • distance 1.39",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "alberto vazquez",
+      "artist": "Alberto Vazquez",
+      "song": "La Felicidad Llegó",
+      "genre": "rock-n-roll",
+      "cluster": 3,
+      "cluster_name": "ambient_instrumental_chill",
+      "reason": "KMeans cluster 3 (ambient_instrumental_chill) • distance 1.61",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "juanafe",
+      "artist": "Juanafé",
+      "song": "La Dormida",
+      "genre": "afrobeat",
+      "cluster": 3,
+      "cluster_name": "ambient_instrumental_chill",
+      "reason": "KMeans cluster 3 (ambient_instrumental_chill) • distance 1.59",
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}
+
+Test 2:
+I detta test skrev jag “klubb”. 
+
+{
+  "view": "kmeans",
+  "query_label": "klubb",
+  "cluster": 4,
+  "cluster_name": "electronic_edm_instrumental",
+  "results": [
+    {
+      "artist_key": "solee",
+      "artist": "Solee",
+      "song": "Exhilaration",
+      "genre": "minimal-techno",
+      "cluster": 4,
+      "cluster_name": "electronic_edm_instrumental",
+      "reason": "KMeans cluster 4 (electronic_edm_instrumental) • distance 0.59",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "peces raros",
+      "artist": "Peces Raros",
+      "song": "Insuficiente",
+      "genre": "electronic",
+      "cluster": 4,
+      "cluster_name": "electronic_edm_instrumental",
+      "reason": "KMeans cluster 4 (electronic_edm_instrumental) • distance 1.14",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "pete bellis & tommy",
+      "artist": "Pete Bellis & Tommy",
+      "song": "Our Voice - Nikko Culture Remix",
+      "genre": "groove",
+      "cluster": 4,
+      "cluster_name": "electronic_edm_instrumental",
+      "reason": "KMeans cluster 4 (electronic_edm_instrumental) • distance 0.87",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "le castle vania",
+      "artist": "Le Castle Vania",
+      "song": "John Wick Mode",
+      "genre": "club",
+      "cluster": 4,
+      "cluster_name": "electronic_edm_instrumental",
+      "reason": "KMeans cluster 4 (electronic_edm_instrumental) • distance 1.19",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "absolute valentine",
+      "artist": "Absolute Valentine",
+      "song": "A Fallen Rose",
+      "genre": "club",
+      "cluster": 4,
+      "cluster_name": "electronic_edm_instrumental",
+      "reason": "KMeans cluster 4 (electronic_edm_instrumental) • distance 1.00",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "dark-e",
+      "artist": "Dark-E",
+      "song": "Happy Hookers (Goes On..)",
+      "genre": "hardstyle",
+      "cluster": 4,
+      "cluster_name": "electronic_edm_instrumental",
+      "reason": "KMeans cluster 4 (electronic_edm_instrumental) • distance 1.10",
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}
+
+
+Test 3:
+I detta test skrev jag “träning”. Då blev resultaten ganska konstiga. Det blev bla en del rock musik, samt även ett poddavsnitt vilket vi inte vill ha med. 
+
+
+{
+  "view": "kmeans",
+  "query_label": "träning",
+  "cluster": 0,
+  "cluster_name": "danceable_mainstream",
+  "results": [
+    {
+      "artist_key": "o rappa",
+      "artist": "O Rappa",
+      "song": "Rodo cotidiano (Participação especial Maria Rita) - Ao vivo acústico",
+      "genre": "alt-rock",
+      "cluster": 0,
+      "cluster_name": "danceable_mainstream",
+      "reason": "KMeans cluster 0 (danceable_mainstream) • distance 1.48",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "the black keys",
+      "artist": "The Black Keys",
+      "song": "Your Touch",
+      "genre": "garage",
+      "cluster": 0,
+      "cluster_name": "danceable_mainstream",
+      "reason": "KMeans cluster 0 (danceable_mainstream) • distance 1.92",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "mortician",
+      "artist": "Mortician",
+      "song": "Driller Killer",
+      "genre": "grindcore",
+      "cluster": 0,
+      "cluster_name": "danceable_mainstream",
+      "reason": "KMeans cluster 0 (danceable_mainstream) • distance 1.88",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "anuradha paudwal",
+      "artist": "Anuradha Paudwal",
+      "song": "Main Duniya Bhula Doonga",
+      "genre": "k-pop",
+      "cluster": 0,
+      "cluster_name": "danceable_mainstream",
+      "reason": "KMeans cluster 0 (danceable_mainstream) • distance 2.41",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "dennis miller",
+      "artist": "Dennis Miller",
+      "song": "Radical Islam",
+      "genre": "comedy",
+      "cluster": 0,
+      "cluster_name": "danceable_mainstream",
+      "reason": "KMeans cluster 0 (danceable_mainstream) • distance 2.23",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "chad daniels",
+      "artist": "Chad Daniels",
+      "song": "Class Reunion",
+      "genre": "comedy",
+      "cluster": 0,
+      "cluster_name": "danceable_mainstream",
+      "reason": "KMeans cluster 0 (danceable_mainstream) • distance 2.05",
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}
+
+Test 4:
+Här skrev jag “bakgrund”. 
+
+{
+  "view": "kmeans",
+  "query_label": "bakgrund",
+  "cluster": 3,
+  "cluster_name": "ambient_instrumental_chill",
+  "results": [
+    {
+      "artist_key": "nirvana",
+      "artist": "Nirvana",
+      "song": "Dumb",
+      "genre": "alt-rock",
+      "cluster": 3,
+      "cluster_name": "ambient_instrumental_chill",
+      "reason": "KMeans cluster 3 (ambient_instrumental_chill) • distance 2.85",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "anthony rother",
+      "artist": "Anthony Rother",
+      "song": "Don't Worry - Original",
+      "genre": "minimal-techno",
+      "cluster": 3,
+      "cluster_name": "ambient_instrumental_chill",
+      "reason": "KMeans cluster 3 (ambient_instrumental_chill) • distance 3.00",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "glenn underground",
+      "artist": "Glenn Underground",
+      "song": "Abstracts",
+      "genre": "chicago-house",
+      "cluster": 3,
+      "cluster_name": "ambient_instrumental_chill",
+      "reason": "KMeans cluster 3 (ambient_instrumental_chill) • distance 3.15",
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "juan d'arienzo and his orchestra",
+      "artist": "Juan D'Arienzo and his Orchestra",
+      "song": "El Flete",
+      "genre": "tango",
+      "cluster": 3,
+      "cluster_name": "ambient_instrumental_chill",
+      "reason": "KMeans cluster 3 (ambient_instrumental_chill) • distance 3.70",
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}
+
+
+Test av funktion: rekommendationer x 2
+Ändrade koden från att man kan skriva en fri prompt i text till alternativ för att förenkla och ge så bra rekommendationer som möjligt. Nu kan man fylla i mood, genre och occasion. Genre går direkt från datasetet och mood och occasion tas från cluster. En svårighet är då om man tar ett mood och occasion från olika clusters. 
+
+Test 1: 
+Här fyllde ja i arg, r&b och fest. Då får jag bara ett förslag som dessutom inte riktigt passar varken arg eller fest. Antagligen för de är väldigt olika clusters. 
+
+{
+  "view": "kmeans",
+  "query_label": "arg • r&b • fest",
+  "cluster": 0,
+  "cluster_name": "energetic_workout_driving",
+  "filters": {
+    "mood": "arg",
+    "genre": "r&b",
+    "occasion": "fest",
+    "selected_cluster": 0,
+    "cluster_name": "energetic_workout_driving",
+    "target_vector": {
+      "danceability": 0.8,
+      "energy": 0.8,
+      "loudness": -4.5,
+      "tempo": 125,
+      "instrumentalness": 0.03161102582169764,
+      "acousticness": 0.6891057548583626,
+      "valence": 0.75
+    }
+  },
+  "results": [
+    {
+      "artist_key": "yahoo",
+      "artist": "Yahoo",
+      "song": "Caminhos De Sol",
+      "secondary_tracks": [],
+      "genre": "r-n-b",
+      "album": "Caminhos De Sol",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 1.86. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/5204c8c06d88595a085bd17b873d560b/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/1/0/f616b41457bc4c4a411db3ad4c711caa.mp3?hdnea=exp=1778680187~acl=/api/1/1/f/6/1/0/f616b41457bc4c4a411db3ad4c711caa.mp3*~data=user_id=0,application_id=42~hmac=0ccffa96f5428f8c1958426ba692d0d170f914a96a572a300f894f91743b61a4",
+      "deezer_link": "https://www.deezer.com/artist/156396",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 42,
+        "spotify_tracks": 1,
+        "lastfm_listeners": null,
+        "deezer_fans": 6550
+      },
+      "top_genres": [
+        "r-n-b"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.623,
+        "energy": 0.569,
+        "valence": 0.571,
+        "acousticness": 0.587,
+        "instrumentalness": 0
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 1.8566603344403916,
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}
+
+
+
+Test 2: 
+
+Här valde jag “romantisk”, “pop”, “dejt”. Hyfsat bra resultat, antagligen för alla dessa kan ha ganska lika egenskaper. Det som sticker ut då är en jullåt, vilket vi inte tycker passar i dessa moods. 
+
+{
+  "view": "kmeans",
+  "query_label": "romantisk • pop • dejt",
+  "cluster": 1,
+  "cluster_name": "happy_party_pop",
+  "filters": {
+    "mood": "romantisk",
+    "genre": "pop",
+    "occasion": "dejt",
+    "selected_cluster": 1,
+    "cluster_name": "happy_party_pop",
+    "target_vector": {
+      "danceability": 0.6,
+      "energy": 0.45,
+      "loudness": -5.431135904540579,
+      "tempo": 105,
+      "instrumentalness": 0.03403437080756167,
+      "acousticness": 0.35,
+      "valence": 0.7
+    }
+  },
+  "results": [
+    {
+      "artist_key": "swing",
+      "artist": "Swing",
+      "song": "1984",
+      "secondary_tracks": [
+        "那邊見",
+        "Corbeaux"
+      ],
+      "genre": "cantopop",
+      "album": "Swing",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.49. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/0c7f6d2e595597cb3497c1d2c9e1a035/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/a/3/0/4a3ba99b696484e3f0babce4b814173a.mp3?hdnea=exp=1778680557~acl=/api/1/1/4/a/3/0/4a3ba99b696484e3f0babce4b814173a.mp3*~data=user_id=0,application_id=42~hmac=7a993f0680bbc65e686968d0a871084ca9a187c6905234b909910b6feed52939",
+      "deezer_link": "https://www.deezer.com/artist/293826",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 38.67,
+        "spotify_tracks": 3,
+        "lastfm_listeners": null,
+        "deezer_fans": 38010
+      },
+      "top_genres": [
+        "cantopop",
+        "french"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.6473333333333333,
+        "energy": 0.568,
+        "valence": 0.438,
+        "acousticness": 0.38000000000000006,
+        "instrumentalness": 0.00007524
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.4882534962062808,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "sonu nigam",
+      "artist": "Sonu Nigam",
+      "song": "Chori Kiya Re Jiya",
+      "secondary_tracks": [
+        "Main Agar Kahoon",
+        "Tumse Milke Dil Ka"
+      ],
+      "genre": "pop-film",
+      "album": "Dabangg",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.57. Liten synlighet enligt spotify-popularitet.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/812220125c4f0db57050438b65afcf78/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/6/9/0/6693aac42a8c6967ad00e2c7be5d1aa8.mp3?hdnea=exp=1778680559~acl=/api/1/1/6/6/9/0/6693aac42a8c6967ad00e2c7be5d1aa8.mp3*~data=user_id=0,application_id=42~hmac=39c3f5e771f7963e124fdf1aae31a807941d4495254167011a3b9048d135ec01",
+      "deezer_link": "https://www.deezer.com/artist/70075",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 35.65,
+        "spotify_tracks": 23,
+        "lastfm_listeners": null,
+        "deezer_fans": 165384
+      },
+      "top_genres": [
+        "pop-film",
+        "pop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.5922608695652174,
+        "energy": 0.6573478260869565,
+        "valence": 0.6734347826086957,
+        "acousticness": 0.5468869565217391,
+        "instrumentalness": 0.0004938526086956522
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.5684278990133322,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "jamie cullum",
+      "artist": "Jamie Cullum",
+      "song": "So Many Santas",
+      "secondary_tracks": [
+        "Turn On The Lights",
+        "Let It Snow"
+      ],
+      "genre": "j-pop",
+      "album": "Weihnachten Playlist",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.57. Liten synlighet enligt spotify-popularitet.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/f4e5b1135a21abb98f669cc9dca78e94/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/c/c/0/7ccc81e16a8d92c302d72dd15b3ddaf5.mp3?hdnea=exp=1778680560~acl=/api/1/1/7/c/c/0/7ccc81e16a8d92c302d72dd15b3ddaf5.mp3*~data=user_id=0,application_id=42~hmac=cdb2c9b313be033d2ebe4b76e50f2d372315963bd98024c81fbd4a7ec4183ccb",
+      "deezer_link": "https://www.deezer.com/artist/1654",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 0.13,
+        "spotify_tracks": 31,
+        "lastfm_listeners": null,
+        "deezer_fans": 246798
+      },
+      "top_genres": [
+        "j-pop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.538516129032258,
+        "energy": 0.535483870967742,
+        "valence": 0.48896774193548387,
+        "acousticness": 0.31403419354838713,
+        "instrumentalness": 0
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.5702228086381194,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "andrew gold",
+      "artist": "Andrew Gold",
+      "song": "Lonely Boy - Re-Recorded",
+      "secondary_tracks": [
+        "Spooky, Scary Skeletons - Undead Tombstone Remix",
+        "Lonely Boy"
+      ],
+      "genre": "power-pop",
+      "album": "Classic Rock Masters (Re-Recorded Versions)",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.57. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/4fce1cd0789b4b57b5828362f2c90e78/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/2/7/0/5270b1e7b50873770672c8b3e04cb58c.mp3?hdnea=exp=1778680561~acl=/api/1/1/5/2/7/0/5270b1e7b50873770672c8b3e04cb58c.mp3*~data=user_id=0,application_id=42~hmac=8e7a6694c9de4e8c5e62bd2026678378f1f22c2a9f079c4849074cbbfe709ad5",
+      "deezer_link": "https://www.deezer.com/artist/9501",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 15.75,
+        "spotify_tracks": 24,
+        "lastfm_listeners": null,
+        "deezer_fans": 6925
+      },
+      "top_genres": [
+        "power-pop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.6765833333333333,
+        "energy": 0.6395416666666667,
+        "valence": 0.6882916666666666,
+        "acousticness": 0.2869554166666667,
+        "instrumentalness": 0.00235698875
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.570749633850397,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "elvis costello & the attractions",
+      "artist": "Elvis Costello & The Attractions",
+      "song": "Riot Act",
+      "secondary_tracks": [
+        "Pump It Up - 2021 Remaster",
+        "Oliver's Army"
+      ],
+      "genre": "power-pop",
+      "album": "Get Happy",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.58. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/a4314c81b14e1db4dc589a682b01a4f5/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/b/0/00beb7e635c39c24bb735f13e18024c0.mp3?hdnea=exp=1778680562~acl=/api/1/1/0/0/b/0/00beb7e635c39c24bb735f13e18024c0.mp3*~data=user_id=0,application_id=42~hmac=7ae338af3c358ecff0f1ba8b588a7054726122ee157ef368de305e723e2b8657",
+      "deezer_link": "https://www.deezer.com/artist/1634",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 23.22,
+        "spotify_tracks": 27,
+        "lastfm_listeners": null,
+        "deezer_fans": 21520
+      },
+      "top_genres": [
+        "power-pop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.5658888888888889,
+        "energy": 0.6862222222222222,
+        "valence": 0.7991851851851851,
+        "acousticness": 0.14804412962962962,
+        "instrumentalness": 0.022664327407407408
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.5805199567651378,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "46",
+      "artist": "櫻坂46",
+      "song": "ブルームーンキス",
+      "secondary_tracks": [
+        "ジャマイカビール",
+        "Buddies"
+      ],
+      "genre": "j-pop",
+      "album": "Nobody's fault (Special Edition)",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.63. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/453441c2feedaf6f06bcc0e42e8f5f08/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/5/0/455c8b6347a3c811a55c9a30420a027f.mp3?hdnea=exp=1778606977~acl=/api/1/1/4/5/5/0/455c8b6347a3c811a55c9a30420a027f.mp3*~data=user_id=0,application_id=42~hmac=5d7fe3577c0e609ce4f7f05903e25a63ceaaf7f10531cec263182f1117079263",
+      "deezer_link": "https://www.deezer.com/artist/114616972",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 37.6,
+        "spotify_tracks": 10,
+        "lastfm_listeners": null,
+        "deezer_fans": 478
+      },
+      "top_genres": [
+        "j-pop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.6218999999999999,
+        "energy": 0.8644999999999999,
+        "valence": 0.6678,
+        "acousticness": 0.1766,
+        "instrumentalness": 5.599999999999999e-7
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.625957083573684,
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}
+
+
+Test 3: 
+Med tanke på test 2, där vi fick fram en jullåt gjorde vi om koden. Nu går den först efter genre och sen cluster. Så den tar endast från den genre man väljer. Dessutom kunde det bli att om man valde tex “chill” och “hiphop”, fick man bara ett resultat. Nu väljer den låtar i det genre som passar bäst. 
+
+
+{
+  "view": "kmeans",
+  "query_label": "chill • hip-hop",
+  "cluster": 2,
+  "cluster_name": "chill_sad_acoustic",
+  "filters": {
+    "mood": "chill",
+    "genre": "hip-hop",
+    "occasion": null,
+    "selected_cluster": 2,
+    "cluster_name": "chill_sad_acoustic",
+    "target_vector": {
+      "danceability": 0.45,
+      "energy": 0.3,
+      "loudness": -21.254309177309178,
+      "tempo": 102.08372943272944,
+      "instrumentalness": 0.7781437542174042,
+      "acousticness": 0.6,
+      "valence": 0.45
+    }
+  },
+  "results": [
+    {
+      "artist_key": "mac miller",
+      "artist": "Mac Miller",
+      "song": "God Is Fair, Sexy Nasty",
+      "secondary_tracks": [
+        "My Favorite Part",
+        "Ascension"
+      ],
+      "genre": "hip-hop",
+      "album": "The Hip Hop Collection",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 3.49. Liten synlighet enligt spotify-popularitet.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/d868d87e47d0597e6ba36d49eadec848/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/4/0/0/e4017e785a24af956e39bc74151f5fc9.mp3?hdnea=exp=1778681798~acl=/api/1/1/e/4/0/0/e4017e785a24af956e39bc74151f5fc9.mp3*~data=user_id=0,application_id=42~hmac=00e50139f552bcdc49ed65c762049366f73d7c9be12495986d2c1045f7a2a2be",
+      "deezer_link": "https://www.deezer.com/artist/632926",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 1.33,
+        "spotify_tracks": 9,
+        "lastfm_listeners": null,
+        "deezer_fans": 1260967
+      },
+      "top_genres": [
+        "hip-hop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.6873333333333334,
+        "energy": 0.5456666666666666,
+        "valence": 0.3877777777777778,
+        "acousticness": 0.3289111111111111,
+        "instrumentalness": 0.0011381344444444446
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 3.4926030971581135,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "ty dolla $ign",
+      "artist": "Ty Dolla $ign",
+      "song": "Famous",
+      "secondary_tracks": [
+        "Or Nah (feat. The Weeknd, Wiz Khalifa & DJ Mustard) - Remix",
+        "My Friends (feat. Lil Durk)"
+      ],
+      "genre": "hip-hop",
+      "album": "Sundown Rap",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 3.55. Liten synlighet enligt spotify-popularitet.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/2ea9932e9a55c0250a8dc19d22bd48a2/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/f/1/0/2f14632a111e51d3d4aac41d15c13aa1.mp3?hdnea=exp=1778681799~acl=/api/1/1/2/f/1/0/2f14632a111e51d3d4aac41d15c13aa1.mp3*~data=user_id=0,application_id=42~hmac=a65ef147d47e315984fce47b4b7a41822fbe94f225fbc7fcab80131d05574d46",
+      "deezer_link": "https://www.deezer.com/artist/4438587",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 15.96,
+        "spotify_tracks": 23,
+        "lastfm_listeners": null,
+        "deezer_fans": 933737
+      },
+      "top_genres": [
+        "dance",
+        "soul",
+        "hip-hop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.7478695652173913,
+        "energy": 0.5031304347826088,
+        "valence": 0.29634782608695653,
+        "acousticness": 0.14267260869565218,
+        "instrumentalness": 0.0000246504347826087
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 3.553120059609164,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "jack harlow",
+      "artist": "Jack Harlow",
+      "song": "Churchill Downs",
+      "secondary_tracks": [
+        "First Class",
+        "First Class"
+      ],
+      "genre": "hip-hop",
+      "album": "Midnight Music",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 3.77. Liten synlighet enligt spotify-popularitet.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/acf97ceb30d48a97e47afd1c3f9b68ce/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/f/0/b8f5f3d5812f5dc09fc0f7e73364f753.mp3?hdnea=exp=1778681808~acl=/api/1/1/b/8/f/0/b8f5f3d5812f5dc09fc0f7e73364f753.mp3*~data=user_id=0,application_id=42~hmac=76fd85e859f76ba433f41e4d02a3ff8b15ca3ac8e91820a9d9c940585fd00255",
+      "deezer_link": "https://www.deezer.com/artist/9093938",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 8.36,
+        "spotify_tracks": 66,
+        "lastfm_listeners": null,
+        "deezer_fans": 337798
+      },
+      "top_genres": [
+        "hip-hop",
+        "k-pop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.8446363636363636,
+        "energy": 0.5989848484848485,
+        "valence": 0.4253181818181818,
+        "acousticness": 0.11844727272727273,
+        "instrumentalness": 0.020645402727272725
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 3.7685840337538217,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "gunna",
+      "artist": "Gunna",
+      "song": "Banking on Me",
+      "secondary_tracks": [
+        "Pushin P",
+        "Pushin P"
+      ],
+      "genre": "hip-hop",
+      "album": "#Multiverse, If the Multiverse Is Real",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 3.88. Liten synlighet enligt spotify-popularitet.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/f6ae30d19f7e865c79b070de2087bd96/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/5/0/6d5bbb403c801c16e39ed737613e4987.mp3?hdnea=exp=1778681809~acl=/api/1/1/6/d/5/0/6d5bbb403c801c16e39ed737613e4987.mp3*~data=user_id=0,application_id=42~hmac=944f4bf9e142ddc30d921b7f5a75dccc19bd70ffb0187106856ce6c7c61e4e2b",
+      "deezer_link": "https://www.deezer.com/artist/4344192",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 0.31,
+        "spotify_tracks": 13,
+        "lastfm_listeners": null,
+        "deezer_fans": 707936
+      },
+      "top_genres": [
+        "hip-hop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.785,
+        "energy": 0.40738461538461535,
+        "valence": 0.4431538461538462,
+        "acousticness": 0.21451846153846155,
+        "instrumentalness": 0.003736707692307692
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 3.8768059059689977,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "kodak black",
+      "artist": "Kodak Black",
+      "song": "Skrt",
+      "secondary_tracks": [
+        "Haitian Scarface",
+        "Super Gremlin"
+      ],
+      "genre": "hip-hop",
+      "album": "Hip Hop Slow Jamz",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 4.23. Liten synlighet enligt spotify-popularitet.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/ea8a331290d65200aaf09a7748975079/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/3/0/c13dd0a2fdbb66c76e910be48ca2db6f.mp3?hdnea=exp=1778681816~acl=/api/1/1/c/1/3/0/c13dd0a2fdbb66c76e910be48ca2db6f.mp3*~data=user_id=0,application_id=42~hmac=bf49bddb7b3d32c06c239b6b464778b61f19258263104aaece066ae2af298764",
+      "deezer_link": "https://www.deezer.com/artist/7260670",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 0.63,
+        "spotify_tracks": 30,
+        "lastfm_listeners": null,
+        "deezer_fans": 657825
+      },
+      "top_genres": [
+        "hip-hop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.752,
+        "energy": 0.5253,
+        "valence": 0.25808,
+        "acousticness": 0.11401533333333333,
+        "instrumentalness": 0.000006942000000000001
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 4.231820257189024,
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}
+
+
+
+Test 4: 
+
+Här valde vi “glad”, “pop” och “fest”. Tycker resultaten blev bra. Också för att dessa har lika features. 
+
+{
+  "view": "kmeans",
+  "query_label": "glad • pop • fest",
+  "cluster": 1,
+  "cluster_name": "happy_party_pop",
+  "filters": {
+    "mood": "glad",
+    "genre": "pop",
+    "occasion": "fest",
+    "selected_cluster": 1,
+    "cluster_name": "happy_party_pop",
+    "target_vector": {
+      "danceability": 0.8,
+      "energy": 0.8,
+      "loudness": -5.431135904540579,
+      "tempo": 125,
+      "instrumentalness": 0.03403437080756167,
+      "acousticness": 0.08234565330711477,
+      "valence": 0.75
+    }
+  },
+  "results": [
+    {
+      "artist_key": "shonan no kaze",
+      "artist": "Shonan No Kaze",
+      "song": "Grand Blue",
+      "secondary_tracks": [
+        "睡蓮花",
+        "ライバル"
+      ],
+      "genre": "j-pop",
+      "album": "湘南乃風 〜一五一会〜",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.40. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist//1000x1000-000000-80-0-0.jpg",
+      "preview": null,
+      "deezer_link": "https://www.deezer.com/artist/7945012",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 43.33,
+        "spotify_tracks": 3,
+        "lastfm_listeners": null,
+        "deezer_fans": 45
+      },
+      "top_genres": [
+        "j-pop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.5663333333333332,
+        "energy": 0.8863333333333333,
+        "valence": 0.5056666666666666,
+        "acousticness": 0.18119666666666667,
+        "instrumentalness": 0
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.4023377360662737,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "asiaboy & lizi ",
+      "artist": "Asiaboy 禁藥王 ＆ Lizi 栗子",
+      "song": "天轟回來到",
+      "secondary_tracks": [],
+      "genre": "mandopop",
+      "album": "天轟回來到",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.44. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/68c74e902b1a7dd152050c188b0d4bb5/1000x1000-000000-80-0-0.jpg",
+      "preview": null,
+      "deezer_link": "https://www.deezer.com/artist/89968252",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 23,
+        "spotify_tracks": 1,
+        "lastfm_listeners": null,
+        "deezer_fans": 16
+      },
+      "top_genres": [
+        "mandopop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.702,
+        "energy": 0.937,
+        "valence": 0.558,
+        "acousticness": 0.00679,
+        "instrumentalness": 0
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.4398133643889495,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "salem ilese",
+      "artist": "salem ilese",
+      "song": "Crypto ₿oy",
+      "secondary_tracks": [
+        "PS5 (with TOMORROW X TOGETHER & Alan Walker)",
+        "Mad at Disney"
+      ],
+      "genre": "indie-pop",
+      "album": "(MORE) Unsponsored Content",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.46. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/f57dd3e0cdceb2bdd574c8fea01f425e/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/7/0/0/97044d3aa011981bf7a44c7b19964560.mp3?hdnea=exp=1778606975~acl=/api/1/1/9/7/0/0/97044d3aa011981bf7a44c7b19964560.mp3*~data=user_id=0,application_id=42~hmac=f9ac3a63b794ddc28b7d4ad46e854be979a04c9be3e235376063c7076f2b4b57",
+      "deezer_link": "https://www.deezer.com/artist/96613542",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 19,
+        "spotify_tracks": 38,
+        "lastfm_listeners": null,
+        "deezer_fans": 15664
+      },
+      "top_genres": [
+        "indie-pop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.6248684210526316,
+        "energy": 0.6592105263157895,
+        "valence": 0.5614736842105262,
+        "acousticness": 0.19607894736842107,
+        "instrumentalness": 0.00022939394736842103
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.4631639579747386,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "owl city",
+      "artist": "Owl City",
+      "song": "Good Time",
+      "secondary_tracks": [
+        "Fireflies",
+        "When Can I See You Again? - From \"Wreck-It Ralph\"/Soundtrack Version"
+      ],
+      "genre": "indie-pop",
+      "album": "Tutti in piscina Canzoni per bambini",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.49. Liten synlighet enligt spotify-popularitet.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/12114991d5d983405568cc0ac0107293/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/6/0/0/060f3e78063b5ccc9f5197bb1ab8c4e2.mp3?hdnea=exp=1778606976~acl=/api/1/1/0/6/0/0/060f3e78063b5ccc9f5197bb1ab8c4e2.mp3*~data=user_id=0,application_id=42~hmac=a230d81eb808ba6a8bd14d95fbb90678f2fb87039f75081de7940f5eaed82fc6",
+      "deezer_link": "https://www.deezer.com/artist/183201",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 22,
+        "spotify_tracks": 13,
+        "lastfm_listeners": null,
+        "deezer_fans": 758927
+      },
+      "top_genres": [
+        "indie-pop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.5462307692307692,
+        "energy": 0.7280769230769231,
+        "valence": 0.4146153846153846,
+        "acousticness": 0.08027,
+        "instrumentalness": 0.000043449230769230775
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.4896082882052275,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "46",
+      "artist": "櫻坂46",
+      "song": "I'm in",
+      "secondary_tracks": [
+        "ジャマイカビール",
+        "Buddies"
+      ],
+      "genre": "j-pop",
+      "album": "五月雨よ (Special Edition)",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.52. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/453441c2feedaf6f06bcc0e42e8f5f08/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/5/0/455c8b6347a3c811a55c9a30420a027f.mp3?hdnea=exp=1778606977~acl=/api/1/1/4/5/5/0/455c8b6347a3c811a55c9a30420a027f.mp3*~data=user_id=0,application_id=42~hmac=5d7fe3577c0e609ce4f7f05903e25a63ceaaf7f10531cec263182f1117079263",
+      "deezer_link": "https://www.deezer.com/artist/114616972",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 37.6,
+        "spotify_tracks": 10,
+        "lastfm_listeners": null,
+        "deezer_fans": 478
+      },
+      "top_genres": [
+        "j-pop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.6218999999999999,
+        "energy": 0.8644999999999999,
+        "valence": 0.6678,
+        "acousticness": 0.1766,
+        "instrumentalness": 5.599999999999999e-7
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.5180142799955578,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "bowy",
+      "artist": "BOØWY",
+      "song": "BAD FEELING",
+      "secondary_tracks": [
+        "BLUE VACATION",
+        "JUSTY"
+      ],
+      "genre": "j-pop",
+      "album": "BOφWY",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.55. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/5ebb7f419380f5b1913432a268a575a4/1000x1000-000000-80-0-0.jpg",
+      "preview": null,
+      "deezer_link": "https://www.deezer.com/artist/214981",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 31.53,
+        "spotify_tracks": 51,
+        "lastfm_listeners": null,
+        "deezer_fans": 547
+      },
+      "top_genres": [
+        "j-rock",
+        "rockabilly",
+        "j-pop"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.5338039215686274,
+        "energy": 0.9007254901960784,
+        "valence": 0.6249607843137255,
+        "acousticness": 0.03601579607843137,
+        "instrumentalness": 0.04775403450980392
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.5472241380996001,
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}
+
+
+Test 5: 
+Här gjorde vi om koden så att den väljer 30 närmsta låtar och sen randomizear. Annars blir det alltid samma resultat om man väljer samma moods. Det blir nu också ett medelvärde av mood och occasion. Annars gick den främst på en av dessa. Tycker resultatet i dessa test blev bra!
+
+{
+  "view": "kmeans",
+  "query_label": "chill • rock • dejt",
+  "cluster": 1,
+  "cluster_name": "happy_party_pop",
+  "filters": {
+    "mood": "chill",
+    "genre": "rock",
+    "occasion": "dejt",
+    "selected_cluster": 1,
+    "cluster_name": "happy_party_pop",
+    "target_vector": {
+      "danceability": 0.5067419690740079,
+      "energy": 0.5216480306280539,
+      "loudness": -5.431135904540579,
+      "tempo": 122.00730523775474,
+      "instrumentalness": 0.03403437080756167,
+      "acousticness": 0.34411521776903825,
+      "valence": 0.5055046531998569
+    }
+  },
+  "results": [
+    {
+      "artist_key": "the flying burrito brothers",
+      "artist": "The Flying Burrito Brothers",
+      "song": "Wild Horses",
+      "secondary_tracks": [],
+      "genre": "psych-rock",
+      "album": "On air 70's Hits",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.13. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/6d020881e5c7773cd10fc7e348bcf698/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/0/0/ad0a8d980b8947ecc4faf42495170434.mp3?hdnea=exp=1778689610~acl=/api/1/1/a/d/0/0/ad0a8d980b8947ecc4faf42495170434.mp3*~data=user_id=0,application_id=42~hmac=14aba4ea0ff646c38c09f29cf274d40e5d5456ffd762cbf72040aaf1d001cdc6",
+      "deezer_link": "https://www.deezer.com/artist/81173",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 0,
+        "spotify_tracks": 1,
+        "lastfm_listeners": null,
+        "deezer_fans": 4291
+      },
+      "top_genres": [
+        "psych-rock"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.518,
+        "energy": 0.494,
+        "valence": 0.299,
+        "acousticness": 0.165,
+        "instrumentalness": 0.00382
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.1266947541568069,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "los fredy s",
+      "artist": "Los Fredy´s",
+      "song": "La Hiedra",
+      "secondary_tracks": [
+        "Amor Indio",
+        "Aunque Me Hagas Llorar"
+      ],
+      "genre": "rock-n-roll",
+      "album": "Nuestros Primeros 20 Éxitos",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.21. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/e9c03110e40a4b5412277320d72d2ae5/1000x1000-000000-80-0-0.jpg",
+      "preview": null,
+      "deezer_link": "https://www.deezer.com/artist/264320",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 30.29,
+        "spotify_tracks": 7,
+        "lastfm_listeners": null,
+        "deezer_fans": 20479
+      },
+      "top_genres": [
+        "rock-n-roll"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.5248571428571429,
+        "energy": 0.633,
+        "valence": 0.45842857142857146,
+        "acousticness": 0.5758571428571428,
+        "instrumentalness": 3.2285714285714284e-7
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.2053768233840647,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "o surto",
+      "artist": "O Surto",
+      "song": "A Cera",
+      "secondary_tracks": [
+        "O Veneno",
+        "Zaroia"
+      ],
+      "genre": "punk-rock",
+      "album": "Meu Primeiro Hit! (Rock)",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.47. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/1023ea3563f2a7908de043fbdad79b97/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/8/5/0/885473c12636894cc2d26723e86a4234.mp3?hdnea=exp=1778689611~acl=/api/1/1/8/8/5/0/885473c12636894cc2d26723e86a4234.mp3*~data=user_id=0,application_id=42~hmac=8b20b6682a7e23ac29029ff6680287d5f0ca6f2f6f4b0ccf084da0c9470efb0a",
+      "deezer_link": "https://www.deezer.com/artist/241414",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 37.5,
+        "spotify_tracks": 4,
+        "lastfm_listeners": null,
+        "deezer_fans": 16446
+      },
+      "top_genres": [
+        "punk-rock"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.55625,
+        "energy": 0.87775,
+        "valence": 0.5495,
+        "acousticness": 0.065275,
+        "instrumentalness": 0
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.474559628193632,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "styx",
+      "artist": "Styx",
+      "song": "Lady",
+      "secondary_tracks": [
+        "Babe",
+        "Babe"
+      ],
+      "genre": "hard-rock",
+      "album": "Best 70s Rock Tunes",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.30. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/13bc31aa1381e8d62e2de321ea17268d/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/3/0/3e3f75877793a94405f3980c4ecee9b9.mp3?hdnea=exp=1778689613~acl=/api/1/1/3/e/3/0/3e3f75877793a94405f3980c4ecee9b9.mp3*~data=user_id=0,application_id=42~hmac=3e76aea58a8b8f05299e43d1e23c45251cf8cabdac2c21ef84638ab479b476cf",
+      "deezer_link": "https://www.deezer.com/artist/5660",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 9.57,
+        "spotify_tracks": 7,
+        "lastfm_listeners": null,
+        "deezer_fans": 90164
+      },
+      "top_genres": [
+        "hard-rock"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.2895714285714286,
+        "energy": 0.38742857142857146,
+        "valence": 0.16475714285714285,
+        "acousticness": 0.34628571428571425,
+        "instrumentalness": 0
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.2973293054054151,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "counting crows",
+      "artist": "Counting Crows",
+      "song": "A Long December",
+      "secondary_tracks": [
+        "Big Yellow Taxi",
+        "Mr. Jones"
+      ],
+      "genre": "alt-rock",
+      "album": "Alternative Christmas 2022",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 1.13. Liten synlighet enligt spotify-popularitet.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/5aca1298d3aaf62c566caf34bf6f647e/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/9/b/0/39b57def86ea9dfdbe474c75b22c7dea.mp3?hdnea=exp=1778689616~acl=/api/1/1/3/9/b/0/39b57def86ea9dfdbe474c75b22c7dea.mp3*~data=user_id=0,application_id=42~hmac=ff80c9c9eaecad77adecd19b9bc4caeedf832afd12e8d4420346f73016694c08",
+      "deezer_link": "https://www.deezer.com/artist/321",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 0.29,
+        "spotify_tracks": 14,
+        "lastfm_listeners": null,
+        "deezer_fans": 420637
+      },
+      "top_genres": [
+        "alt-rock",
+        "alternative"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.5216428571428572,
+        "energy": 0.7486428571428572,
+        "valence": 0.6217142857142858,
+        "acousticness": 0.28257000000000004,
+        "instrumentalness": 0.001958895714285714
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 1.1292288981220635,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "barns courtney",
+      "artist": "Barns Courtney",
+      "song": "Fire",
+      "secondary_tracks": [
+        "Glitter & Gold",
+        "Baby, It’s Cold Outside"
+      ],
+      "genre": "alt-rock",
+      "album": "The Attractions Of Youth",
+      "reason": "KMeans matchade låten till cluster 1 (happy_party_pop). Avstånd till vald musikprofil: 0.92. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/d786c916239016ad288d086940490760/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/5/8/0/858daeb86307a0ea33e8f73f36555b24.mp3?hdnea=exp=1778689617~acl=/api/1/1/8/5/8/0/858daeb86307a0ea33e8f73f36555b24.mp3*~data=user_id=0,application_id=42~hmac=71f6d2a221cfd04657f89bdf1a8a5f0c73864a6c41901de29d0d426ffc7be3d3",
+      "deezer_link": "https://www.deezer.com/artist/9074712",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 33.5,
+        "spotify_tracks": 4,
+        "lastfm_listeners": null,
+        "deezer_fans": 42890
+      },
+      "top_genres": [
+        "alt-rock"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.5605,
+        "energy": 0.687,
+        "valence": 0.5369999999999999,
+        "acousticness": 0.34675,
+        "instrumentalness": 0.000082
+      },
+      "cluster": 1,
+      "cluster_name": "happy_party_pop",
+      "distance": 0.9242252145188632,
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}
+
+Test 6: 
+I detta test ser vi lite problem. Jag valde “ledsen”, “house” och “kväll”. De feature-värden vi har för dessa är väldigt olika och då blir också resultaten få.
+
+
+{
+  "view": "kmeans",
+  "query_label": "ledsen • house • kvall",
+  "cluster": 2,
+  "cluster_name": "chill_sad_acoustic",
+  "filters": {
+    "mood": "ledsen",
+    "genre": "house",
+    "occasion": "kväll",
+    "selected_cluster": 2,
+    "cluster_name": "chill_sad_acoustic",
+    "target_vector": {
+      "danceability": 0.3399161122661123,
+      "energy": 0.2639530179239679,
+      "loudness": -21.254309177309178,
+      "tempo": 102.08372943272944,
+      "instrumentalness": 0.7781437542174042,
+      "acousticness": 0.7032451648834274,
+      "valence": 0.1887166862934363
+    }
+  },
+  "results": [
+    {
+      "artist_key": "tale of us",
+      "artist": "Tale Of Us",
+      "song": "Nova",
+      "secondary_tracks": [
+        "Time - feat. Jules Buckley",
+        "Notte senza fine - Kiasmos Remix"
+      ],
+      "genre": "deep-house",
+      "album": "Realm Of Consciousness Pt. III",
+      "reason": "KMeans matchade låten till cluster 2 (chill_sad_acoustic). Avstånd till vald musikprofil: 2.67. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/2924af1e25e910aa9073f79bb6755913/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/2/0/212afa0840e867d407eb36b6645f1db0.mp3?hdnea=exp=1778690007~acl=/api/1/1/2/1/2/0/212afa0840e867d407eb36b6645f1db0.mp3*~data=user_id=0,application_id=42~hmac=a208d868c14c1712fdc954cacea8839aef38a0c7d7ea81e0e861ce72b65acc93",
+      "deezer_link": "https://www.deezer.com/artist/4902820",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 41,
+        "spotify_tracks": 11,
+        "lastfm_listeners": null,
+        "deezer_fans": 60704
+      },
+      "top_genres": [
+        "minimal-techno",
+        "deep-house"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.7227272727272728,
+        "energy": 0.6765454545454546,
+        "valence": 0.1307909090909091,
+        "acousticness": 0.07440136363636364,
+        "instrumentalness": 0.8886363636363637
+      },
+      "cluster": 2,
+      "cluster_name": "chill_sad_acoustic",
+      "distance": 2.6672445083244263,
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}
+
+
+Test 7: 
+Gjort om så att alla genrer som innehåller ett ord som tex house ska komma med. Vi ändrade recommendation-logiken så att systemet först filtrerar på vald genre och därefter använder KMeans och audio features för att hitta rätt vibe/mood inom genren.
+Tidigare användes KMeans-cluster som ett hårt filter innan genre-matchningen. Det gjorde att vissa kombinationer som tex chill +hiphop eller ledsen + house gav få eller irrelevanta resultat eftersom många låtar filtrerades bort för tidigt.
+Efter ändringen fungerar logiken istället så här:
+1. Filtrera på genre
+2. Bygg target-vector från mood + occasion
+3. Använd euclidean distance för att hitta mest liknande låtar
+4. KMeans används som hjälp för relevans, inte som hård begränsning
+
+{
+  "view": "kmeans",
+  "query_label": "ledsen • house • kvall",
+  "cluster": 2,
+  "cluster_name": "chill_sad_acoustic",
+  "filters": {
+    "mood": "ledsen",
+    "genre": "house",
+    "occasion": "kväll",
+    "selected_cluster": 2,
+    "cluster_name": "chill_sad_acoustic",
+    "target_vector": {
+      "danceability": 0.3399161122661123,
+      "energy": 0.2639530179239679,
+      "loudness": -21.254309177309178,
+      "tempo": 102.08372943272944,
+      "instrumentalness": 0.7781437542174042,
+      "acousticness": 0.7032451648834274,
+      "valence": 0.1887166862934363
+    }
+  },
+  "results": [
+    {
+      "artist_key": "roctonic sa",
+      "artist": "Roctonic SA",
+      "song": "Tribute to Chronical Deep - Atmospheric Mix",
+      "secondary_tracks": [],
+      "genre": "deep-house",
+      "album": "Altitude of House Music Vol. 1",
+      "reason": "KMeans matchade låten till cluster 4 (electronic_techno_instrumental). Avstånd till vald musikprofil: 3.19. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/c20ac619b572588dae34d519b5f00fdf/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/9/b/0/19bc74510c5e6824aa39ee7cb2fe3af1.mp3?hdnea=exp=1778690886~acl=/api/1/1/1/9/b/0/19bc74510c5e6824aa39ee7cb2fe3af1.mp3*~data=user_id=0,application_id=42~hmac=ef13c083c6adf6f009ff3bd9b3d854ce1797f65df08ac59b0a430e27c5f56d7c",
+      "deezer_link": "https://www.deezer.com/artist/91629232",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 27,
+        "spotify_tracks": 1,
+        "lastfm_listeners": null,
+        "deezer_fans": 79
+      },
+      "top_genres": [
+        "deep-house"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.636,
+        "energy": 0.534,
+        "valence": 0.228,
+        "acousticness": 0.0000934,
+        "instrumentalness": 0.914
+      },
+      "cluster": 4,
+      "cluster_name": "electronic_techno_instrumental",
+      "distance": 3.189276218479182,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "larry heard",
+      "artist": "Larry Heard",
+      "song": "Deja Vu",
+      "secondary_tracks": [
+        "Can You Feel It - Instrumental",
+        "You Rock Me - Long Version"
+      ],
+      "genre": "chicago-house",
+      "album": "Love's Arrival",
+      "reason": "KMeans matchade låten till cluster 4 (electronic_techno_instrumental). Avstånd till vald musikprofil: 2.80. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/c17c8a2ae2874d8ecca028ee58084f0e/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/3/0/c83932d89160a9920f78643ac8099639.mp3?hdnea=exp=1778690886~acl=/api/1/1/c/8/3/0/c83932d89160a9920f78643ac8099639.mp3*~data=user_id=0,application_id=42~hmac=2795fa966991868b3fcb9b7345415070e9b2514d7a250ac2d1836ded9ee8b980",
+      "deezer_link": "https://www.deezer.com/artist/74753",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 15.71,
+        "spotify_tracks": 34,
+        "lastfm_listeners": null,
+        "deezer_fans": 2422
+      },
+      "top_genres": [
+        "chicago-house"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.7321176470588235,
+        "energy": 0.5830294117647059,
+        "valence": 0.5601205882352941,
+        "acousticness": 0.053037852941176473,
+        "instrumentalness": 0.6527840697058823
+      },
+      "cluster": 4,
+      "cluster_name": "electronic_techno_instrumental",
+      "distance": 2.795219927910703,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "pal joey",
+      "artist": "Pal Joey",
+      "song": "Spend the Night",
+      "secondary_tracks": [
+        "Dance - Dub Mix",
+        "Hot Music"
+      ],
+      "genre": "chicago-house",
+      "album": "Loop-D-Loop #3",
+      "reason": "KMeans matchade låten till cluster 4 (electronic_techno_instrumental). Avstånd till vald musikprofil: 3.46. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/6d750604d939156d1b284b19cd7e77b6/1000x1000-000000-80-0-0.jpg",
+      "preview": null,
+      "deezer_link": "https://www.deezer.com/artist/283471",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 9.53,
+        "spotify_tracks": 17,
+        "lastfm_listeners": null,
+        "deezer_fans": 233
+      },
+      "top_genres": [
+        "chicago-house"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.7854117647058824,
+        "energy": 0.6451764705882352,
+        "valence": 0.5512941176470588,
+        "acousticness": 0.010548411764705883,
+        "instrumentalness": 0.7545470588235293
+      },
+      "cluster": 4,
+      "cluster_name": "electronic_techno_instrumental",
+      "distance": 3.4561821640054986,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "mark farina",
+      "artist": "Mark Farina",
+      "song": "Midnight Calling",
+      "secondary_tracks": [
+        "Dream Machine - DownTempo Mix",
+        "Dream Machine - Downtempo Mix"
+      ],
+      "genre": "chicago-house",
+      "album": "Om: Lounge - From The Vaults Vol. 1",
+      "reason": "KMeans matchade låten till cluster 4 (electronic_techno_instrumental). Avstånd till vald musikprofil: 3.86. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/1d6e23155d69190a712ba0f308f3829c/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/4/0/eb456c2e8ce37f5729c4e1400bfcf6cc.mp3?hdnea=exp=1778690888~acl=/api/1/1/e/b/4/0/eb456c2e8ce37f5729c4e1400bfcf6cc.mp3*~data=user_id=0,application_id=42~hmac=b92112cd6c2a474b97a542f5d3b12104c05d1e7c34c1d71b58c8d6fba6075d14",
+      "deezer_link": "https://www.deezer.com/artist/3457",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 14.57,
+        "spotify_tracks": 42,
+        "lastfm_listeners": null,
+        "deezer_fans": 6037
+      },
+      "top_genres": [
+        "chicago-house"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.8144761904761905,
+        "energy": 0.6739285714285714,
+        "valence": 0.5756904761904762,
+        "acousticness": 0.049189027380952384,
+        "instrumentalness": 0.5762033333333333
+      },
+      "cluster": 4,
+      "cluster_name": "electronic_techno_instrumental",
+      "distance": 3.859695967315896,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "acnatro",
+      "artist": "Acnatro",
+      "song": "Heaven",
+      "secondary_tracks": [],
+      "genre": "deep-house",
+      "album": "Heaven",
+      "reason": "KMeans matchade låten till cluster 4 (electronic_techno_instrumental). Avstånd till vald musikprofil: 3.96. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/0b063f69d68528812c6ec28788d52a41/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/4/0/b44c6e2130fc42dd12ef001a0658dd50.mp3?hdnea=exp=1778690890~acl=/api/1/1/b/4/4/0/b44c6e2130fc42dd12ef001a0658dd50.mp3*~data=user_id=0,application_id=42~hmac=1341a1dadd30d5e54c90e2285447d02d384a36f71220b76f93ba6ba66d99e241",
+      "deezer_link": "https://www.deezer.com/artist/14972751",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 31,
+        "spotify_tracks": 1,
+        "lastfm_listeners": null,
+        "deezer_fans": 161
+      },
+      "top_genres": [
+        "deep-house"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.689,
+        "energy": 0.586,
+        "valence": 0.149,
+        "acousticness": 0.0301,
+        "instrumentalness": 0.549
+      },
+      "cluster": 4,
+      "cluster_name": "electronic_techno_instrumental",
+      "distance": 3.956525668111145,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "armando",
+      "artist": "Armando",
+      "song": "World Beat",
+      "secondary_tracks": [
+        "Box Energy",
+        "Sweet Love"
+      ],
+      "genre": "chicago-house",
+      "album": "One World One Future",
+      "reason": "KMeans matchade låten till cluster 4 (electronic_techno_instrumental). Avstånd till vald musikprofil: 3.90. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/88a2eebe5f5f6da6ce76b1a55a070f27/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/6/0/26616b562516050cfb15d2e6a5e62cde.mp3?hdnea=exp=1778690891~acl=/api/1/1/2/6/6/0/26616b562516050cfb15d2e6a5e62cde.mp3*~data=user_id=0,application_id=42~hmac=861bb34552816e7d542e67f01c789d344ee3e416c78095a7b7b974202a59ba2a",
+      "deezer_link": "https://www.deezer.com/artist/14309861",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 9.58,
+        "spotify_tracks": 19,
+        "lastfm_listeners": null,
+        "deezer_fans": 40
+      },
+      "top_genres": [
+        "chicago-house"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.8080526315789474,
+        "energy": 0.7465263157894736,
+        "valence": 0.6547368421052632,
+        "acousticness": 0.02455525789473684,
+        "instrumentalness": 0.728548947368421
+      },
+      "cluster": 4,
+      "cluster_name": "electronic_techno_instrumental",
+      "distance": 3.901422600309532,
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+
+
+
+
+Test 8: 
+
+{
+  "view": "kmeans",
+  "query_label": "glad • classical • kvall",
+  "cluster": 1,
+  "cluster_name": "happy_party_pop",
+  "filters": {
+    "mood": "glad",
+    "genre": "classical",
+    "occasion": "kväll",
+    "selected_cluster": 1,
+    "cluster_name": "happy_party_pop",
+    "target_vector": {
+      "danceability": 0.5851129536110118,
+      "energy": 0.7824720459420808,
+      "loudness": -5.431135904540579,
+      "tempo": 139.01461047550947,
+      "instrumentalness": 0.03403437080756167,
+      "acousticness": 0.08234565330711477,
+      "valence": 0.5832569797997855
+    }
+  },
+  "results": [
+    {
+      "artist_key": "manik varma",
+      "artist": "Manik Varma",
+      "song": "Koushalyecha Ram Bai",
+      "secondary_tracks": [
+        "Amrutahuni God"
+      ],
+      "genre": "classical",
+      "album": "Bhaktigeet",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 3.00. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/b9d46ae3fa78f80a9b25ac5ca8b2f301/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/3/2/0/632e6c8ffe77bc8f590c5ae9c242b250.mp3?hdnea=exp=1778691051~acl=/api/1/1/6/3/2/0/632e6c8ffe77bc8f590c5ae9c242b250.mp3*~data=user_id=0,application_id=42~hmac=11928769c6de14398bc5377cf46c0311ba3b66bb8eec11b7c40aef4280911b40",
+      "deezer_link": "https://www.deezer.com/artist/362629",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 36,
+        "spotify_tracks": 2,
+        "lastfm_listeners": null,
+        "deezer_fans": 251
+      },
+      "top_genres": [
+        "classical"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.41400000000000003,
+        "energy": 0.474,
+        "valence": 0.5235000000000001,
+        "acousticness": 0.9624999999999999,
+        "instrumentalness": 0.0008505
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 3.002410507702942,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "luciano pavarotti",
+      "artist": "Luciano Pavarotti",
+      "song": "Ave Maria, D. 839 (Arr. Gamley)",
+      "secondary_tracks": [
+        "Nessun Dorma",
+        "'O Sole Mio - Live"
+      ],
+      "genre": "classical",
+      "album": "Christmas Dinner",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 4.73. Liten synlighet enligt spotify-popularitet.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/71adea0a8732bd8934186b87e18b394d/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/9/0/2d9110826fe9b4bd8fa58fb1806498c9.mp3?hdnea=exp=1778691052~acl=/api/1/1/2/d/9/0/2d9110826fe9b4bd8fa58fb1806498c9.mp3*~data=user_id=0,application_id=42~hmac=ad082d1b0ba07b9b0b325ffca34d104b0688ef60b7ddec737937199209d652f5",
+      "deezer_link": "https://www.deezer.com/artist/13896",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 25.43,
+        "spotify_tracks": 7,
+        "lastfm_listeners": null,
+        "deezer_fans": 755773
+      },
+      "top_genres": [
+        "opera",
+        "classical"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.2692857142857143,
+        "energy": 0.3741428571428571,
+        "valence": 0.24499999999999997,
+        "acousticness": 0.874,
+        "instrumentalness": 0.004904098571428571
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 4.726550924510502,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "camille saint-saens",
+      "artist": "Camille Saint-Saëns",
+      "song": "Oratorio de Noël, Op. 12: 10. Tollite hostias",
+      "secondary_tracks": [
+        "The Carnival of the Animals, R. 125: XIII. The Swan (Arr. for Cello and Piano)",
+        "Carnival of the Animals: The Swan"
+      ],
+      "genre": "classical",
+      "album": "Classical Christmas",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 3.58. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/a0f4721887735ab9f9437fa2a739d887/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/f/0/13f786b3f101742990d8c94109a586f1.mp3?hdnea=exp=1778691052~acl=/api/1/1/1/3/f/0/13f786b3f101742990d8c94109a586f1.mp3*~data=user_id=0,application_id=42~hmac=3cb765fcf815cdb4ad2626c5274f3bf1fafa5c23f3900d0e6dbca3de4a5f27e4",
+      "deezer_link": "https://www.deezer.com/artist/7692",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 23.09,
+        "spotify_tracks": 11,
+        "lastfm_listeners": null,
+        "deezer_fans": 37478
+      },
+      "top_genres": [
+        "classical",
+        "french"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.26936363636363636,
+        "energy": 0.12442363636363636,
+        "valence": 0.13089090909090909,
+        "acousticness": 0.952090909090909,
+        "instrumentalness": 0.8373649
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 3.5766074553267817,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "sultan khan",
+      "artist": "Sultan Khan",
+      "song": "Leja Leja",
+      "secondary_tracks": [],
+      "genre": "classical",
+      "album": "Ustad And The Divas",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 2.51. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/856f3122375ac66af7b7753c9b51565f/1000x1000-000000-80-0-0.jpg",
+      "preview": null,
+      "deezer_link": "https://www.deezer.com/artist/101691",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 45,
+        "spotify_tracks": 1,
+        "lastfm_listeners": null,
+        "deezer_fans": 132
+      },
+      "top_genres": [
+        "classical"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.603,
+        "energy": 0.743,
+        "valence": 0.341,
+        "acousticness": 0.728,
+        "instrumentalness": 0.0000422
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 2.510253475376613,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "giuseppe verdi",
+      "artist": "Giuseppe Verdi",
+      "song": "Attila - Oltre a quel limite t'attendo",
+      "secondary_tracks": [
+        "La traviata / Act I: Libiamo ne'lieti calici",
+        "Rigoletto: \"La donna è mobile\""
+      ],
+      "genre": "classical",
+      "album": "CD 2 LE NOVITÀ",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 3.48. Liten synlighet enligt spotify-popularitet, deezer-fans.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/642756092254fd039ea140fb762faa23/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/c/8/0/1c83a2933da31d4e514791ffbc30d3d3.mp3?hdnea=exp=1778691054~acl=/api/1/1/1/c/8/0/1c83a2933da31d4e514791ffbc30d3d3.mp3*~data=user_id=0,application_id=42~hmac=5ac67b4101111f29217950c3a3036fabedfd6e4e3c747b01b0af2881ac01f2bb",
+      "deezer_link": "https://www.deezer.com/artist/4976",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 21.31,
+        "spotify_tracks": 94,
+        "lastfm_listeners": null,
+        "deezer_fans": 69227
+      },
+      "top_genres": [
+        "opera",
+        "classical"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.26897765957446806,
+        "energy": 0.19284159574468082,
+        "valence": 0.1730148936170213,
+        "acousticness": 0.9606063829787234,
+        "instrumentalness": 0.21451854468085108
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 3.4822165799238936,
+      "source": "kmeans",
+      "is_custom": false
+    },
+    {
+      "artist_key": "pyotr ilyich tchaikovsky",
+      "artist": "Pyotr Ilyich Tchaikovsky",
+      "song": "Swan Lake, Op. 20, TH.12 / Act 3: No. 21 Danse espagnole (Allegro non troppo. Tempo di bolero)",
+      "secondary_tracks": [
+        "Tchaikovsky: Swan Lake, Op. 20, Act II: No. 10, Scene. Moderato",
+        "The Nutcracker (Suite), Op. 71a, TH. 35: IIb. Dance of the Sugar-Plum Fairy"
+      ],
+      "genre": "classical",
+      "album": "Classical Running",
+      "reason": "KMeans matchade låten till cluster 0 (energetic_workout_driving). Avstånd till vald musikprofil: 4.06. Liten synlighet enligt spotify-popularitet.",
+      "bio": "",
+      "image": "https://cdn-images.dzcdn.net/images/artist/9d792f1e4fe07a8a5f7809d767a1e671/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/d/0/2ede0159853b0082bd07fa3704e9a031.mp3?hdnea=exp=1778691055~acl=/api/1/1/2/e/d/0/2ede0159853b0082bd07fa3704e9a031.mp3*~data=user_id=0,application_id=42~hmac=d9a91ba72aec01059f1925bc488dee075054eccb5f84808a9a8b0ce937314a18",
+      "deezer_link": "https://www.deezer.com/artist/309998",
+      "lastfm_link": null,
+      "metrics": {
+        "spotify_popularity": 1.81,
+        "spotify_tracks": 37,
+        "lastfm_listeners": null,
+        "deezer_fans": 201844
+      },
+      "top_genres": [
+        "classical"
+      ],
+      "similar_artists": [],
+      "audio_signature": {
+        "danceability": 0.4161891891891892,
+        "energy": 0.14274297297297298,
+        "valence": 0.35379459459459456,
+        "acousticness": 0.9383513513513514,
+        "instrumentalness": 0.7067156756756756
+      },
+      "cluster": 0,
+      "cluster_name": "energetic_workout_driving",
+      "distance": 4.05731748890105,
+      "source": "kmeans",
+      "is_custom": false
+    }
+  ],
+  "saved_artist_keys": [
+    "grandson"
+  ]
+}

@@ -1,0 +1,16 @@
+Förbättringar i prototyper efter feedback
+
+Det är flera ändringar som gjorts efter intervjuerna och vi har förbättrat plattformen genom att utgå från det användarna saknade och gillade under testerna.
+De gillade grundidén, särskilt möjligheten att upptäcka ny musik och använda vibesökning, men de saknade ett tydligare community, bättre interaktion och mer relevanta rekommendationer.
+Vi har därför vidareutvecklat discoveryfunktionen genom att gå från enklare genre-, mood- och promptbaserad sökning till en mer egenskapsbaserad sökning. 
+Användaren kan beskriva vad den vill ha genom sliders, och systemet använder sedan k-means och låtegenskaper för att hitta mer passande musik.
+Detta gjordes eftersom intervjuerna visade att vibesökningen var uppskattad, men behövde bli mer träffsäker och varierad.
+
+Vi har också förbättrat rekommendationssystemet. Tidigare användes k-means mest som ett filter, men i den senare versionen blev det en större del.
+Systemet väljer nu ett musikaliskt område, hittar en seedlåt och rekommenderar sedan låtar som liknar den. Vi har även lagt till regler som minskar upprepning av samma artister och nyligen visade låtar. 
+
+En annan viktig förbättring är communitydelen. Flera tyckte att flödet hade potential men att syftet var otydligt. Därför har vi arbetat med ett tydligare flöde, kommentarer, previews av låtar och community rooms.
+Detta ska göra det lättare för användare att diskutera, dela och upptäcka musik. Vi har även lagt till funktioner som konton, sparade låtar och sparade inlägg, eftersom användarna ville kunna hitta musiken och artisterna som de gillade.
+För artister har vi dessutom utvecklat idén om låtkort, där de kan söka upp sin låt och få data från användarna.
+Vi har även gjort flera UX-förbättringar i både discovery och community. Målet har varit att göra plattformen tydligare, enklare att använda och mer levande.
+Vi har också arbetat med att fixa buggar och förbättra stabiliteten, eftersom testerna visade problem med uppspelning, previews och upprepade resultat.

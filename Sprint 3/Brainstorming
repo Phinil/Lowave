@@ -1,0 +1,27 @@
+Brainstorm möjliga features 
+
+Lista/map på konserter:  
+En funktion för att visa var mindre, eventuellt lokala, artister spelar. Tex via en lista eller en karta. Tanken är att problem owner ska kunna bli upptäckta digitalt → kan leda till verkliga upplevelser för lyssnarna.
+Svårt att hitta tillförlitlig och relevant konsertdata. 
+
+Feed - med randomized sånger mindre artister: 
+Ett feed som visar låtar från mindre artister på ett mer slumpmässigt sätt. Det finns även idéer om att artister själva skulle kunna lägga upp musik eller inlägg, vilket kan bidra till en mer community känsla.
+Tanken är att skapa mer interaktion och en tydligare small web känsla. 
+Ska artisten ha eget konto? Svårt med verifiering.  
+
+Like/spara  funktion på prompt funktionen:
+En funktion där användare kan gilla eller spara låtar och artister, vilket skapar enkel interaktion och gör det möjligt att bygga en personlig profil.
+Detta kan även användas som grund för framtida personalisering i produkten.
+
+Like/spara funktion på olika element i låtar, tex lyrics, tempo, melodi osv:
+En mer avancerad funktion där användare kan gilla specifika delar av en låt, exempelvis lyrics, tempo eller melodi.
+Tanken är att detta kan ge mer detaljerad feedback och data till artister om vad lyssnare uppskattar.
+En utmaning är att avgöra hur detta ska implementeras på ett tydligt och användarvänligt sätt.
+
+Veriferingsfunktion, ny artist? Artister som redan finns?:
+En funktion för att identifiera artister. 
+Skapa transparens och lyfta fram mindre artister i linje med small web-idén.
+Svårt att definiera vad “verifierad” innebär och hur det ska implementeras. 
+
+
+

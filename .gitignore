@@ -1,0 +1,38 @@
+# ---- System- och byggfiler ----
+.DS_Store
+DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# ---- Hemligheter (API-nycklar) ----
+.env
+
+# ---- Internt för gruppen ----
+Handledning/
+Social contract
+
+# ---- Personuppgifter: intervjuinspelningar och råa intervjuanteckningar ----
+# (anonymiserade sammanfattningar ligger kvar)
+Interview recordings/
+Sprint 1/Interviews/
+Sprint 3/Interviews/
+Sprint 4/Interviews/Testing-intervju PO9
+Sprint 2/intervjuer/*
+!Sprint 2/intervjuer/Sammanfattning intervjuer om första prototyp
+
+# ---- Dubblett av tidig repo-version inuti prototyp 1 ----
+Sprint 2/Prototyp 1/kod_prototyp1/*
+!Sprint 2/Prototyp 1/kod_prototyp1/Code for prototype1/
+
+# ---- Lokal app-data som skapas när appen körs ----
+*.sqlite3
+user_state.json
+api_cache.json
+debug_prompt_trace*.json
+
+# ---- Stora datasetkopior (en kopia behålls i Sprint 4/kod_prototyp15/data) ----
+spotify_tracks.csv
+cleaned_dataset6.csv
+Sprint 2/EDA/cleaned_dataset.csv

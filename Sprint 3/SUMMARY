@@ -1,0 +1,47 @@
+
+
+
+From brainstorming:
+
+Diskuterade olika features. Ex. lista/map på konsertter, feed, like, spara, verifiering
+Där vi fann fördelar och nackdelar med de olika grejerna, samt disskusion på hur de ska införas.
+
+-----------------------------------------------------
+
+
+From interviews and testing:
+
+Deltagarna i test intervjuerna var positiva till designen av en enkel meny. Uppskattade fokuset på att artisten syns bra genom preview funktionen.
+Det finns dock flera typer av genrer som borde finnas, som inte finns i upptäckts funktionerna. 
+
+Deltagarna var relativt positiva till uppladdning funktionen med hjälp av ISRC kod. Tycker att artister bör ha koll på de, men det finns en chans att man inte vet.
+Därmed behöver de möjligtvis tydliggöra vad man hittar. Något positivt med att ej använda artist konton, är att de sparar tid och behöver inte hålla kolla på ännu en plattform. 
+Kring flödets funktion anser de att det är något oklart. Behövs möjligheter något mer visuellt som lockar, tror att plattformen behöver integreras med andra medier för att fungera fullt som marknadsföring.
+Utöver detta önskas de att kunna pinna inlägg.
+
+Annat att tillägga att en del fel uppstod i visualiseringen av produkten. Såsom att den slutade randomisera, samt att låtar inte gick att spela upp.  
+
+-----------------------------------------------------
+
+Första test av olika algoritmer (via workshop):
+
+-Inför vår ML valde vi att göra unsupervised learning och testa tre olika algoritmer. Unsupervised learning handlar som sagt att hitta mönster och likheter utan färdiga facit. 
+Därmed testar vi att analysera våra låtar och göra egna kluster enbart baserat på musik egenskaper som finns i vårt dataset.
+
+-Ena algoritmen vi testade var K-means där vi valde olika antal kluster för att dela in datan. Sedan agglomerative clustering. 
+Sedan  DBSCAN där vi testade olika värden på parametrarna, eps och samples. Själva visualiseringen med samtliga algoritmer var svår att bra på grund av vårt typ av dataset, 
+för att musikgenskaperna har många liknande värden och därmed ligger punkterna nära varandra.
+Det gör det svårt att se gränser för kluster. Dock efter att lyssnat på låtar i klustret verkar indelningen ok på samtliga modeller.
+Till exempel att outliers verkade vara väldigt logiska.  Vi valde att gå vidare med K-means till att börja med. 
+Speciellt för att den verkade hantera större datamängder enklare samt kan vara snabbare att arbeta med. 
+
+-----------------------------------------------------
+
+
+Outcomes:
+
+-Efter intervju --->  Artisterna gillar protypen, flödet behöver tydliggöras, kod behöver felsökas.
+
+-Efter brainstorm och testintervju --> implmenterade feed, like, spara funktion, ISRC kod (istället för verifiering)
+
+-Ml funkar ok, vi har för tillfälligt fokuserat på k-means. Dock vill vi försöka med att vidareutveckla clusteringen, då metriker såsom Silhoette score verkade vara ganska låg på K-means.

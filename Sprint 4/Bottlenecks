@@ -1,0 +1,16 @@
+Flaskhalsar och problem hittade:
+
+1.Ganska beroende av API:er, vilket är problematiskt för att vi vill vara aligned med Small Webb.
+
+Svar: För vår produkt behöver vi kunna spela upp musik och visa omslagsbilder. Vi har kunskap om hur man skulle kunna spara ner mycket musik och bilder på ett bra sätt, sedan framför allt har vi inte nödvändiga musikrättigheterna. Därför behövde vi använda ett API för detta. Ett av våra mål var att inte vara beroende av Spotify, och därför använder vi oss av det öppna API:et (som inte ens kräver en nyckel) från det franska företaget Deezer. 
+
+2.Vi sparar information(metadata) om musiken i en databas, till att specifikt hjälpa independent artister.
+Kan ej få live och realtids API för senaste låtar för funktionen med “prompting a feeling”:
+
+Svar: Extremt svårt att få tag på data(musik egenskaper) om låtar förutom från de stora jättarna. En framtida idé är att själva analysera låtarna själva med python-biloteket Librosa. Fokuset har varit på att få in clustering. Och uppdatera denna funktion varje månad med nyare dataset som har just de musikgenskaperna. 
+
+3.Kommer inte på ett optimalt sätt att verifiera artister eller att skapa artist konto… 
+
+Svar: Problematiken blir då att vi inte skapar den mest optimala möjligheten för en independent artist att vara personlig, då den inte själv kan ändra och integrera sig (krävs att de gör detta på stora plattformar). Dock ger vi de en möjlighet att lägga en låt i vår produkt som genererar förslag för enbart independent artister. Sedan använder vi flödet som ett sätt för lyssnare att uttrycka sina åsikter och känslor om låtarna vilket artister kan se själva genom att göra lyssnarkonton.
+
+
