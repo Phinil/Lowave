@@ -105,3 +105,5 @@ API-nycklar ligger aldrig i repot, de läses in från `.env` som är exkluderad 
 ---
 
 *Rå intervjumaterial, inspelningar och interna gruppdokument är inte med i detta repo av integritetsskäl. Deltagarna benämns som PO1, PO2 och så vidare.*
+
+*README:n är skriven med hjälp av Claude (Anthropic).*
